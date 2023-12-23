@@ -41,12 +41,13 @@
     cursor:pointer;
 }
 .search_box:placeholder-shown{
-    box-shadow:0 1px 0 var(--sb-default);
+    box-shadow:0 1px 0 var(--sb-shadow);
 }
 .search_box:not(:placeholder-shown),
 .search_box:focus,
 .search_box:hover{
-    box-shadow:0 2px 0 var(--sb-default);
+    box-shadow:0 2px 0 var(--sb-default),
+    0 3px 8px var(--sb-default);
 }
 .searchBar_divisor,
 .searchBar_divisor2{

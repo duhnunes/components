@@ -2,7 +2,8 @@
 @import url('./searchBar.css');
 
 :root{
-    --sb-default:#3c48ef;
+    --sb-default:rgba(60 72 239);
+    --sb-shadow:rgba(60 72 239/ .5);
     --sb-light:#e9e9e9;
     --sb-dark:#1d1d1d;
 }

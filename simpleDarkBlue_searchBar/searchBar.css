@@ -49,6 +49,7 @@
     box-shadow:0 2px 0 var(--sb-default),
     0 3px 8px var(--sb-default);
 }
+
 .searchBar_divisor,
 .searchBar_divisor2{
     background:#333;

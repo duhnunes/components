@@ -10,9 +10,29 @@
     <nav class="navbar">
         <!-- LOGO -->
         <a href="./" class="logo">
-            <h1 class="logo-h1">Simple DarkBlue</h1>
+            <h1 class="logo-h1">Simple Navbar</h1>
         </a>
 
+        <!-- MENU MOBILE -->
+        <button type="button" class="btn btn-default btn-mobile" id="btnMobile">
+            <span class="hamburger"></span>
+        </button>
+        <ul class="menu-mobile">
+            <li class="mob-item">
+                <a href="#about" class="mob-link">About</a>
+            </li>
+            <li class="mob-item">
+                <a href="#features" class="mob-link">Features</a>
+            </li>
+            <li class="mob-item">
+                <a href="#services" class="mob-link">Services</a>
+            </li>
+            <li class="mob-item">
+                <a href="#price" class="mob-link">Price</a>
+            </li>
+        </ul>
+
+        <!-- MENU DESKTOP -->
         <section class="menu-box">
             <!-- LINKS -->
             <ul class="link-area">
@@ -34,5 +54,7 @@
             <button type="button" class="btn btn-default">Contact</button>
         </section>
     </nav>
+
+    <script src="./navbar.js"></script>
 </body>
 </html>
